@@ -1,0 +1,2513 @@
+{
+  "prices": {
+    "T1_ALCHEMY_EXTRACT_LEVEL1": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 2000,
+        "sell_price_min": 2270,
+        "buy_price_min": 122,
+        "sell_price_max": 3300
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 2051,
+        "sell_price_min": 2995,
+        "buy_price_min": 109,
+        "sell_price_max": 7497
+      },
+      "Lymhurst": {
+        "buy_price_max": 2501,
+        "sell_price_min": 4398,
+        "buy_price_min": 140,
+        "sell_price_max": 7997
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T2_AGARIC": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 343,
+        "buy_price_min": 0,
+        "sell_price_max": 343
+      },
+      "Bridgewatch": {
+        "buy_price_max": 354,
+        "sell_price_min": 368,
+        "buy_price_min": 1,
+        "sell_price_max": 550
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_DIREBEAR": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 21136,
+        "sell_price_min": 0,
+        "buy_price_min": 158,
+        "sell_price_max": 0
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 44886,
+        "buy_price_min": 0,
+        "sell_price_max": 56208
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 41549,
+        "buy_price_min": 0,
+        "sell_price_max": 80000
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 120000,
+        "buy_price_min": 0,
+        "sell_price_max": 120000
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 39989,
+        "buy_price_min": 0,
+        "sell_price_max": 39994
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_EAGLE": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 12800,
+        "sell_price_min": 13987,
+        "buy_price_min": 222,
+        "sell_price_max": 16000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_ELEMENTAL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 15001,
+        "sell_price_min": 24997,
+        "buy_price_min": 163,
+        "sell_price_max": 28000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 13022,
+        "sell_price_min": 19953,
+        "buy_price_min": 1,
+        "sell_price_max": 28700
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_ENT": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 10007,
+        "sell_price_min": 13995,
+        "buy_price_min": 113,
+        "sell_price_max": 34996
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_IMP": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 13156,
+        "sell_price_min": 20995,
+        "buy_price_min": 2,
+        "sell_price_max": 27990
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 16512,
+        "sell_price_min": 31000,
+        "buy_price_min": 207,
+        "sell_price_max": 39998
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 24583,
+        "buy_price_min": 0,
+        "sell_price_max": 30188
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_PANTHER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 69487,
+        "buy_price_min": 0,
+        "sell_price_max": 69487
+      },
+      "Bridgewatch": {
+        "buy_price_max": 43561,
+        "sell_price_min": 78985,
+        "buy_price_min": 171,
+        "sell_price_max": 81166
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_ALCHEMY_RARE_WEREWOLF": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 12805,
+        "sell_price_min": 24970,
+        "buy_price_min": 111,
+        "sell_price_max": 25000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_COMFREY": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 529,
+        "buy_price_min": 0,
+        "sell_price_max": 590
+      },
+      "Bridgewatch": {
+        "buy_price_max": 350,
+        "sell_price_min": 395,
+        "buy_price_min": 4,
+        "sell_price_max": 395
+      },
+      "Caerleon": {
+        "buy_price_max": 282,
+        "sell_price_min": 323,
+        "buy_price_min": 8,
+        "sell_price_max": 374
+      },
+      "Fort Sterling": {
+        "buy_price_max": 352,
+        "sell_price_min": 398,
+        "buy_price_min": 32,
+        "sell_price_max": 398
+      },
+      "Lymhurst": {
+        "buy_price_max": 404,
+        "sell_price_min": 505,
+        "buy_price_min": 1,
+        "sell_price_max": 999
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T3_EGG": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 105,
+        "buy_price_min": 0,
+        "sell_price_max": 208
+      },
+      "Bridgewatch": {
+        "buy_price_max": 23,
+        "sell_price_min": 25,
+        "buy_price_min": 23,
+        "sell_price_max": 60
+      },
+      "Caerleon": {
+        "buy_price_max": 21,
+        "sell_price_min": 34,
+        "buy_price_min": 5,
+        "sell_price_max": 39
+      },
+      "Fort Sterling": {
+        "buy_price_max": 35,
+        "sell_price_min": 39,
+        "buy_price_min": 7,
+        "sell_price_max": 72
+      },
+      "Lymhurst": {
+        "buy_price_max": 71,
+        "sell_price_min": 115,
+        "buy_price_min": 1,
+        "sell_price_max": 350
+      },
+      "Martlock": {
+        "buy_price_max": 11,
+        "sell_price_min": 13,
+        "buy_price_min": 2,
+        "sell_price_max": 50
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 100,
+        "buy_price_min": 0,
+        "sell_price_max": 155
+      }
+    },
+    "T3_POTION_MOB_RESET@1": {
+      "Brecilien": {
+        "buy_price_max": 18,
+        "sell_price_min": 10801,
+        "buy_price_min": 1,
+        "sell_price_max": 10909
+      },
+      "Bridgewatch": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 6000,
+        "sell_price_min": 9592,
+        "buy_price_min": 1,
+        "sell_price_max": 9870
+      },
+      "Lymhurst": {
+        "buy_price_max": 5920,
+        "sell_price_min": 8999,
+        "buy_price_min": 5,
+        "sell_price_max": 10293
+      },
+      "Martlock": {
+        "buy_price_max": 6170,
+        "sell_price_min": 9684,
+        "buy_price_min": 2,
+        "sell_price_max": 9747
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 9825,
+        "buy_price_min": 0,
+        "sell_price_max": 9878
+      }
+    },
+    "T4_BURDOCK": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 471,
+        "sell_price_min": 492,
+        "buy_price_min": 7,
+        "sell_price_max": 519
+      },
+      "Caerleon": {
+        "buy_price_max": 381,
+        "sell_price_min": 446,
+        "buy_price_min": 5,
+        "sell_price_max": 551
+      },
+      "Fort Sterling": {
+        "buy_price_max": 441,
+        "sell_price_min": 443,
+        "buy_price_min": 43,
+        "sell_price_max": 471
+      },
+      "Lymhurst": {
+        "buy_price_max": 350,
+        "sell_price_min": 457,
+        "buy_price_min": 1,
+        "sell_price_max": 512
+      },
+      "Martlock": {
+        "buy_price_max": 448,
+        "sell_price_min": 491,
+        "buy_price_min": 6,
+        "sell_price_max": 542
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T4_BUTTER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 74,
+        "sell_price_min": 238,
+        "buy_price_min": 1,
+        "sell_price_max": 295
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 200,
+        "sell_price_min": 346,
+        "buy_price_min": 10,
+        "sell_price_max": 347
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 249,
+        "buy_price_min": 0,
+        "sell_price_max": 499
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 271,
+        "buy_price_min": 0,
+        "sell_price_max": 322
+      }
+    },
+    "T4_MILK": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 0,
+        "sell_price_min": 280,
+        "buy_price_min": 0,
+        "sell_price_max": 530
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 264,
+        "sell_price_min": 284,
+        "buy_price_min": 52,
+        "sell_price_max": 349
+      },
+      "Lymhurst": {
+        "buy_price_max": 247,
+        "sell_price_min": 263,
+        "buy_price_min": 9,
+        "sell_price_max": 420
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 300,
+        "buy_price_min": 0,
+        "sell_price_max": 323
+      }
+    },
+    "T5_ALCHEMY_RARE_DIREBEAR": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 51130,
+        "sell_price_min": 107000,
+        "buy_price_min": 129,
+        "sell_price_max": 120000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 71797,
+        "buy_price_min": 0,
+        "sell_price_max": 89993
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 82997,
+        "buy_price_min": 0,
+        "sell_price_max": 89900
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 81995,
+        "buy_price_min": 0,
+        "sell_price_max": 100000
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 78000,
+        "buy_price_min": 0,
+        "sell_price_max": 79999
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_EAGLE": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 25555,
+        "sell_price_min": 26960,
+        "buy_price_min": 119,
+        "sell_price_max": 29917
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_ELEMENTAL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 25555,
+        "sell_price_min": 32997,
+        "buy_price_min": 178,
+        "sell_price_max": 39996
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 25581,
+        "sell_price_min": 28754,
+        "buy_price_min": 144,
+        "sell_price_max": 40208
+      },
+      "Lymhurst": {
+        "buy_price_max": 25556,
+        "sell_price_min": 30628,
+        "buy_price_min": 1,
+        "sell_price_max": 40498
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_ENT": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 30164,
+        "sell_price_min": 39448,
+        "buy_price_min": 131,
+        "sell_price_max": 39800
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_IMP": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 25579,
+        "sell_price_min": 39904,
+        "buy_price_min": 222,
+        "sell_price_max": 70000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 25569,
+        "sell_price_min": 60505,
+        "buy_price_min": 227,
+        "sell_price_max": 60506
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_PANTHER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 1000000,
+        "buy_price_min": 0,
+        "sell_price_max": 1049818
+      },
+      "Bridgewatch": {
+        "buy_price_max": 85376,
+        "sell_price_min": 114998,
+        "buy_price_min": 191,
+        "sell_price_max": 117935
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_ALCHEMY_RARE_WEREWOLF": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 25566,
+        "sell_price_min": 40936,
+        "buy_price_min": 109,
+        "sell_price_max": 51956
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_EGG": {
+      "Brecilien": {
+        "buy_price_max": 345,
+        "sell_price_min": 380,
+        "buy_price_min": 1,
+        "sell_price_max": 410
+      },
+      "Bridgewatch": {
+        "buy_price_max": 0,
+        "sell_price_min": 344,
+        "buy_price_min": 0,
+        "sell_price_max": 2991
+      },
+      "Caerleon": {
+        "buy_price_max": 243,
+        "sell_price_min": 310,
+        "buy_price_min": 5,
+        "sell_price_max": 332
+      },
+      "Fort Sterling": {
+        "buy_price_max": 309,
+        "sell_price_min": 329,
+        "buy_price_min": 5,
+        "sell_price_max": 365
+      },
+      "Lymhurst": {
+        "buy_price_max": 278,
+        "sell_price_min": 322,
+        "buy_price_min": 1,
+        "sell_price_max": 348
+      },
+      "Martlock": {
+        "buy_price_max": 312,
+        "sell_price_min": 340,
+        "buy_price_min": 2,
+        "sell_price_max": 496
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_POTION_MOB_RESET": {
+      "Brecilien": {
+        "buy_price_max": 9503,
+        "sell_price_min": 14975,
+        "buy_price_min": 1,
+        "sell_price_max": 15226
+      },
+      "Bridgewatch": {
+        "buy_price_max": 596,
+        "sell_price_min": 12997,
+        "buy_price_min": 5,
+        "sell_price_max": 14832
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 5026,
+        "sell_price_min": 15000,
+        "buy_price_min": 6,
+        "sell_price_max": 15487
+      },
+      "Lymhurst": {
+        "buy_price_max": 4058,
+        "sell_price_min": 15545,
+        "buy_price_min": 10,
+        "sell_price_max": 15912
+      },
+      "Martlock": {
+        "buy_price_max": 12501,
+        "sell_price_min": 15587,
+        "buy_price_min": 2,
+        "sell_price_max": 15866
+      },
+      "Thetford": {
+        "buy_price_max": 7003,
+        "sell_price_min": 15096,
+        "buy_price_min": 8,
+        "sell_price_max": 5899999
+      }
+    },
+    "T5_POTION_REVIVE": {
+      "Brecilien": {
+        "buy_price_max": 1424,
+        "sell_price_min": 3185,
+        "buy_price_min": 1,
+        "sell_price_max": 3247
+      },
+      "Bridgewatch": {
+        "buy_price_max": 2637,
+        "sell_price_min": 3812,
+        "buy_price_min": 5,
+        "sell_price_max": 4098
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 3177,
+        "buy_price_min": 0,
+        "sell_price_max": 3177
+      },
+      "Fort Sterling": {
+        "buy_price_max": 3111,
+        "sell_price_min": 3827,
+        "buy_price_min": 2900,
+        "sell_price_max": 3999
+      },
+      "Lymhurst": {
+        "buy_price_max": 3057,
+        "sell_price_min": 3872,
+        "buy_price_min": 1,
+        "sell_price_max": 3873
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 3580,
+        "buy_price_min": 0,
+        "sell_price_max": 3580
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 3590,
+        "buy_price_min": 0,
+        "sell_price_max": 3605
+      }
+    },
+    "T5_POTION_SLOWFIELD": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 3246,
+        "buy_price_min": 0,
+        "sell_price_max": 3250
+      },
+      "Bridgewatch": {
+        "buy_price_max": 1738,
+        "sell_price_min": 3371,
+        "buy_price_min": 5,
+        "sell_price_max": 3541
+      },
+      "Caerleon": {
+        "buy_price_max": 58,
+        "sell_price_min": 2000,
+        "buy_price_min": 58,
+        "sell_price_max": 3891
+      },
+      "Fort Sterling": {
+        "buy_price_max": 574,
+        "sell_price_min": 3359,
+        "buy_price_min": 3,
+        "sell_price_max": 3359
+      },
+      "Lymhurst": {
+        "buy_price_max": 1667,
+        "sell_price_min": 1982,
+        "buy_price_min": 15,
+        "sell_price_max": 2001
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_POTION_STONESKIN": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 3299,
+        "buy_price_min": 0,
+        "sell_price_max": 3631
+      },
+      "Bridgewatch": {
+        "buy_price_max": 1186,
+        "sell_price_min": 3135,
+        "buy_price_min": 22,
+        "sell_price_max": 3196
+      },
+      "Caerleon": {
+        "buy_price_max": 2599,
+        "sell_price_min": 4004627,
+        "buy_price_min": 2572,
+        "sell_price_max": 4004627
+      },
+      "Fort Sterling": {
+        "buy_price_max": 3162,
+        "sell_price_min": 4033,
+        "buy_price_min": 1204,
+        "sell_price_max": 4033
+      },
+      "Lymhurst": {
+        "buy_price_max": 3107,
+        "sell_price_min": 3699,
+        "buy_price_min": 5,
+        "sell_price_max": 3699
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T5_TEASEL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 440,
+        "sell_price_min": 446,
+        "buy_price_min": 1,
+        "sell_price_max": 446
+      },
+      "Caerleon": {
+        "buy_price_max": 244,
+        "sell_price_min": 337,
+        "buy_price_min": 19,
+        "sell_price_max": 391
+      },
+      "Fort Sterling": {
+        "buy_price_max": 418,
+        "sell_price_min": 458,
+        "buy_price_min": 77,
+        "sell_price_max": 512
+      },
+      "Lymhurst": {
+        "buy_price_max": 453,
+        "sell_price_min": 500,
+        "buy_price_min": 11,
+        "sell_price_max": 500
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_ALCOHOL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 253,
+        "sell_price_min": 290,
+        "buy_price_min": 1,
+        "sell_price_max": 1200
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 274,
+        "buy_price_min": 0,
+        "sell_price_max": 298
+      },
+      "Fort Sterling": {
+        "buy_price_max": 0,
+        "sell_price_min": 359,
+        "buy_price_min": 0,
+        "sell_price_max": 789
+      },
+      "Lymhurst": {
+        "buy_price_max": 328,
+        "sell_price_min": 349,
+        "buy_price_min": 3,
+        "sell_price_max": 440
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 304,
+        "buy_price_min": 0,
+        "sell_price_max": 419
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 322,
+        "buy_price_min": 0,
+        "sell_price_max": 324
+      }
+    },
+    "T6_BUTTER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 499,
+        "buy_price_min": 0,
+        "sell_price_max": 599
+      },
+      "Bridgewatch": {
+        "buy_price_max": 373,
+        "sell_price_min": 449,
+        "buy_price_min": 11,
+        "sell_price_max": 1107
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 350,
+        "sell_price_min": 676,
+        "buy_price_min": 20,
+        "sell_price_max": 700
+      },
+      "Lymhurst": {
+        "buy_price_max": 413,
+        "sell_price_min": 600,
+        "buy_price_min": 5,
+        "sell_price_max": 4999
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 625,
+        "buy_price_min": 0,
+        "sell_price_max": 1194
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_FOXGLOVE": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 447,
+        "sell_price_min": 473,
+        "buy_price_min": 13,
+        "sell_price_max": 498
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 462,
+        "sell_price_min": 482,
+        "buy_price_min": 303,
+        "sell_price_max": 496
+      },
+      "Lymhurst": {
+        "buy_price_max": 480,
+        "sell_price_min": 483,
+        "buy_price_min": 11,
+        "sell_price_max": 536
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 468,
+        "buy_price_min": 0,
+        "sell_price_max": 468
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_MILK": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Bridgewatch": {
+        "buy_price_max": 0,
+        "sell_price_min": 312,
+        "buy_price_min": 0,
+        "sell_price_max": 409
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 341,
+        "sell_price_min": 347,
+        "buy_price_min": 1,
+        "sell_price_max": 370
+      },
+      "Lymhurst": {
+        "buy_price_max": 334,
+        "sell_price_min": 397,
+        "buy_price_min": 12,
+        "sell_price_max": 400
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 299,
+        "buy_price_min": 0,
+        "sell_price_max": 450
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_POTION_COOLDOWN": {
+      "Brecilien": {
+        "buy_price_max": 2200,
+        "sell_price_min": 3084,
+        "buy_price_min": 1,
+        "sell_price_max": 3179
+      },
+      "Bridgewatch": {
+        "buy_price_max": 2303,
+        "sell_price_min": 3192,
+        "buy_price_min": 10,
+        "sell_price_max": 3400
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 3004,
+        "sell_price_min": 3368,
+        "buy_price_min": 23,
+        "sell_price_max": 3527
+      },
+      "Lymhurst": {
+        "buy_price_max": 1766,
+        "sell_price_min": 3199,
+        "buy_price_min": 5,
+        "sell_price_max": 3257
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_POTION_GATHER": {
+      "Brecilien": {
+        "buy_price_max": 7022,
+        "sell_price_min": 8196,
+        "buy_price_min": 1,
+        "sell_price_max": 9381
+      },
+      "Bridgewatch": {
+        "buy_price_max": 7945,
+        "sell_price_min": 9316,
+        "buy_price_min": 1,
+        "sell_price_max": 9419
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 7106,
+        "sell_price_min": 9300,
+        "buy_price_min": 7100,
+        "sell_price_max": 24999
+      },
+      "Lymhurst": {
+        "buy_price_max": 5511,
+        "sell_price_min": 7885,
+        "buy_price_min": 5511,
+        "sell_price_max": 8396
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 9585,
+        "buy_price_min": 0,
+        "sell_price_max": 9585
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_POTION_HEAL": {
+      "Brecilien": {
+        "buy_price_max": 3852,
+        "sell_price_min": 5490,
+        "buy_price_min": 1,
+        "sell_price_max": 6193
+      },
+      "Bridgewatch": {
+        "buy_price_max": 6050,
+        "sell_price_min": 6840,
+        "buy_price_min": 5,
+        "sell_price_max": 7849
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 5043,
+        "sell_price_min": 6493,
+        "buy_price_min": 35,
+        "sell_price_max": 6775
+      },
+      "Lymhurst": {
+        "buy_price_max": 5817,
+        "sell_price_min": 6887,
+        "buy_price_min": 1,
+        "sell_price_max": 6890
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 6198,
+        "buy_price_min": 0,
+        "sell_price_max": 6198
+      }
+    },
+    "T6_POTION_LAVA": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 9989,
+        "buy_price_min": 0,
+        "sell_price_max": 9989
+      },
+      "Bridgewatch": {
+        "buy_price_max": 3580,
+        "sell_price_min": 9936,
+        "buy_price_min": 1,
+        "sell_price_max": 100000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 3234521,
+        "buy_price_min": 0,
+        "sell_price_max": 8997865
+      },
+      "Fort Sterling": {
+        "buy_price_max": 6793,
+        "sell_price_min": 11229,
+        "buy_price_min": 3515,
+        "sell_price_max": 11642
+      },
+      "Lymhurst": {
+        "buy_price_max": 5331,
+        "sell_price_min": 8399,
+        "buy_price_min": 1,
+        "sell_price_max": 8640
+      },
+      "Martlock": {
+        "buy_price_max": 4007,
+        "sell_price_min": 10520,
+        "buy_price_min": 59,
+        "sell_price_max": 10590
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T6_POTION_TORNADO": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 5738,
+        "buy_price_min": 0,
+        "sell_price_max": 5747
+      },
+      "Bridgewatch": {
+        "buy_price_max": 2725,
+        "sell_price_min": 5254,
+        "buy_price_min": 1,
+        "sell_price_max": 6247
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 5991,
+        "buy_price_min": 0,
+        "sell_price_max": 5992
+      },
+      "Fort Sterling": {
+        "buy_price_max": 4020,
+        "sell_price_min": 14238,
+        "buy_price_min": 5,
+        "sell_price_max": 72000
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 5477,
+        "buy_price_min": 0,
+        "sell_price_max": 5499
+      }
+    },
+    "T7_ALCOHOL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 393,
+        "buy_price_min": 0,
+        "sell_price_max": 401
+      },
+      "Bridgewatch": {
+        "buy_price_max": 334,
+        "sell_price_min": 342,
+        "buy_price_min": 19,
+        "sell_price_max": 395
+      },
+      "Caerleon": {
+        "buy_price_max": 301,
+        "sell_price_min": 418,
+        "buy_price_min": 13,
+        "sell_price_max": 450
+      },
+      "Fort Sterling": {
+        "buy_price_max": 236,
+        "sell_price_min": 399,
+        "buy_price_min": 18,
+        "sell_price_max": 409
+      },
+      "Lymhurst": {
+        "buy_price_max": 314,
+        "sell_price_min": 406,
+        "buy_price_min": 100,
+        "sell_price_max": 407
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 340,
+        "buy_price_min": 0,
+        "sell_price_max": 350
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 340,
+        "buy_price_min": 0,
+        "sell_price_max": 370
+      }
+    },
+    "T7_MULLEIN": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 543,
+        "buy_price_min": 0,
+        "sell_price_max": 563
+      },
+      "Bridgewatch": {
+        "buy_price_max": 481,
+        "sell_price_min": 518,
+        "buy_price_min": 9,
+        "sell_price_max": 635
+      },
+      "Caerleon": {
+        "buy_price_max": 346,
+        "sell_price_min": 369,
+        "buy_price_min": 26,
+        "sell_price_max": 370
+      },
+      "Fort Sterling": {
+        "buy_price_max": 482,
+        "sell_price_min": 522,
+        "buy_price_min": 11,
+        "sell_price_max": 528
+      },
+      "Lymhurst": {
+        "buy_price_max": 512,
+        "sell_price_min": 531,
+        "buy_price_min": 49,
+        "sell_price_max": 566
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 504,
+        "sell_price_min": 513,
+        "buy_price_min": 12,
+        "sell_price_max": 639
+      }
+    },
+    "T7_POTION_REVIVE": {
+      "Brecilien": {
+        "buy_price_max": 8713,
+        "sell_price_min": 9998,
+        "buy_price_min": 1,
+        "sell_price_max": 10266
+      },
+      "Bridgewatch": {
+        "buy_price_max": 9000,
+        "sell_price_min": 10597,
+        "buy_price_min": 1,
+        "sell_price_max": 10772
+      },
+      "Caerleon": {
+        "buy_price_max": 8181,
+        "sell_price_min": 9990,
+        "buy_price_min": 1,
+        "sell_price_max": 12671
+      },
+      "Fort Sterling": {
+        "buy_price_max": 8817,
+        "sell_price_min": 10665,
+        "buy_price_min": 11,
+        "sell_price_max": 10666
+      },
+      "Lymhurst": {
+        "buy_price_max": 8383,
+        "sell_price_min": 9999,
+        "buy_price_min": 8383,
+        "sell_price_max": 10326
+      },
+      "Martlock": {
+        "buy_price_max": 8214,
+        "sell_price_min": 10199,
+        "buy_price_min": 5,
+        "sell_price_max": 10199
+      },
+      "Thetford": {
+        "buy_price_max": 8617,
+        "sell_price_min": 10691,
+        "buy_price_min": 1,
+        "sell_price_max": 10691
+      }
+    },
+    "T7_POTION_SLOWFIELD": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 12662,
+        "buy_price_min": 0,
+        "sell_price_max": 12669
+      },
+      "Bridgewatch": {
+        "buy_price_max": 8190,
+        "sell_price_min": 13165,
+        "buy_price_min": 5,
+        "sell_price_max": 14883
+      },
+      "Caerleon": {
+        "buy_price_max": 7194,
+        "sell_price_min": 14870,
+        "buy_price_min": 3000,
+        "sell_price_max": 15936
+      },
+      "Fort Sterling": {
+        "buy_price_max": 8004,
+        "sell_price_min": 9995,
+        "buy_price_min": 11,
+        "sell_price_max": 12248
+      },
+      "Lymhurst": {
+        "buy_price_max": 2031,
+        "sell_price_min": 12877,
+        "buy_price_min": 1,
+        "sell_price_max": 13279
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 11883,
+        "buy_price_min": 0,
+        "sell_price_max": 12229
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_POTION_STONESKIN": {
+      "Brecilien": {
+        "buy_price_max": 9572,
+        "sell_price_min": 13902,
+        "buy_price_min": 1,
+        "sell_price_max": 14234
+      },
+      "Bridgewatch": {
+        "buy_price_max": 10119,
+        "sell_price_min": 13094,
+        "buy_price_min": 2,
+        "sell_price_max": 13145
+      },
+      "Caerleon": {
+        "buy_price_max": 7057,
+        "sell_price_min": 13435,
+        "buy_price_min": 1,
+        "sell_price_max": 14396
+      },
+      "Fort Sterling": {
+        "buy_price_max": 9717,
+        "sell_price_min": 12762,
+        "buy_price_min": 9013,
+        "sell_price_max": 12762
+      },
+      "Lymhurst": {
+        "buy_price_max": 10193,
+        "sell_price_min": 13100,
+        "buy_price_min": 1,
+        "sell_price_max": 13100
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 10151,
+        "sell_price_min": 11916,
+        "buy_price_min": 5,
+        "sell_price_max": 11949
+      }
+    },
+    "T8_ALCOHOL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 274,
+        "buy_price_min": 0,
+        "sell_price_max": 321
+      },
+      "Bridgewatch": {
+        "buy_price_max": 211,
+        "sell_price_min": 272,
+        "buy_price_min": 52,
+        "sell_price_max": 332
+      },
+      "Caerleon": {
+        "buy_price_max": 315,
+        "sell_price_min": 578,
+        "buy_price_min": 305,
+        "sell_price_max": 599
+      },
+      "Fort Sterling": {
+        "buy_price_max": 200,
+        "sell_price_min": 301,
+        "buy_price_min": 37,
+        "sell_price_max": 304
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 274,
+        "buy_price_min": 0,
+        "sell_price_max": 333
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 329,
+        "buy_price_min": 0,
+        "sell_price_max": 357
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 310,
+        "buy_price_min": 0,
+        "sell_price_max": 319
+      }
+    },
+    "T8_BUTTER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 432,
+        "buy_price_min": 0,
+        "sell_price_max": 432
+      },
+      "Bridgewatch": {
+        "buy_price_max": 371,
+        "sell_price_min": 437,
+        "buy_price_min": 17,
+        "sell_price_max": 519
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 266,
+        "buy_price_min": 0,
+        "sell_price_max": 286
+      },
+      "Fort Sterling": {
+        "buy_price_max": 330,
+        "sell_price_min": 473,
+        "buy_price_min": 20,
+        "sell_price_max": 664
+      },
+      "Lymhurst": {
+        "buy_price_max": 390,
+        "sell_price_min": 393,
+        "buy_price_min": 5,
+        "sell_price_max": 449
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T8_MILK": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 323,
+        "buy_price_min": 0,
+        "sell_price_max": 323
+      },
+      "Bridgewatch": {
+        "buy_price_max": 0,
+        "sell_price_min": 301,
+        "buy_price_min": 0,
+        "sell_price_max": 477
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 279,
+        "buy_price_min": 0,
+        "sell_price_max": 287
+      },
+      "Fort Sterling": {
+        "buy_price_max": 291,
+        "sell_price_min": 307,
+        "buy_price_min": 2,
+        "sell_price_max": 354
+      },
+      "Lymhurst": {
+        "buy_price_max": 232,
+        "sell_price_min": 295,
+        "buy_price_min": 12,
+        "sell_price_max": 375
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 244,
+        "buy_price_min": 0,
+        "sell_price_max": 294
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 307,
+        "buy_price_min": 0,
+        "sell_price_max": 320
+      }
+    },
+    "T8_POTION_CLEANSE": {
+      "Brecilien": {
+        "buy_price_max": 8765,
+        "sell_price_min": 11152,
+        "buy_price_min": 1,
+        "sell_price_max": 11196
+      },
+      "Bridgewatch": {
+        "buy_price_max": 9211,
+        "sell_price_min": 11026,
+        "buy_price_min": 5,
+        "sell_price_max": 11499
+      },
+      "Caerleon": {
+        "buy_price_max": 7612,
+        "sell_price_min": 10691,
+        "buy_price_min": 7612,
+        "sell_price_max": 10691
+      },
+      "Fort Sterling": {
+        "buy_price_max": 9582,
+        "sell_price_min": 11179,
+        "buy_price_min": 7000,
+        "sell_price_max": 11179
+      },
+      "Lymhurst": {
+        "buy_price_max": 10009,
+        "sell_price_min": 11119,
+        "buy_price_min": 1,
+        "sell_price_max": 11228
+      },
+      "Martlock": {
+        "buy_price_max": 8726,
+        "sell_price_min": 11168,
+        "buy_price_min": 2,
+        "sell_price_max": 11720
+      },
+      "Thetford": {
+        "buy_price_max": 9608,
+        "sell_price_min": 10899,
+        "buy_price_min": 2,
+        "sell_price_max": 11162
+      }
+    },
+    "T8_POTION_COOLDOWN": {
+      "Brecilien": {
+        "buy_price_max": 8948,
+        "sell_price_min": 10448,
+        "buy_price_min": 1,
+        "sell_price_max": 10798
+      },
+      "Bridgewatch": {
+        "buy_price_max": 8503,
+        "sell_price_min": 11450,
+        "buy_price_min": 10,
+        "sell_price_max": 11683
+      },
+      "Caerleon": {
+        "buy_price_max": 8789,
+        "sell_price_min": 9800,
+        "buy_price_min": 5,
+        "sell_price_max": 10489
+      },
+      "Fort Sterling": {
+        "buy_price_max": 8022,
+        "sell_price_min": 11276,
+        "buy_price_min": 27,
+        "sell_price_max": 11788
+      },
+      "Lymhurst": {
+        "buy_price_max": 9622,
+        "sell_price_min": 11276,
+        "buy_price_min": 2,
+        "sell_price_max": 11495
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 11273,
+        "buy_price_min": 0,
+        "sell_price_max": 11375
+      },
+      "Thetford": {
+        "buy_price_max": 9533,
+        "sell_price_min": 11123,
+        "buy_price_min": 2,
+        "sell_price_max": 11450
+      }
+    },
+    "T8_POTION_GATHER": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 19277,
+        "buy_price_min": 0,
+        "sell_price_max": 20025
+      },
+      "Bridgewatch": {
+        "buy_price_max": 21026,
+        "sell_price_min": 35989,
+        "buy_price_min": 2,
+        "sell_price_max": 50000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 19000,
+        "sell_price_min": 22993,
+        "buy_price_min": 1,
+        "sell_price_max": 397999
+      },
+      "Lymhurst": {
+        "buy_price_max": 11913,
+        "sell_price_min": 22125,
+        "buy_price_min": 1,
+        "sell_price_max": 22420
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T8_POTION_LAVA": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 28252,
+        "buy_price_min": 0,
+        "sell_price_max": 28259
+      },
+      "Bridgewatch": {
+        "buy_price_max": 14807,
+        "sell_price_min": 33635,
+        "buy_price_min": 5,
+        "sell_price_max": 33638
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 44898,
+        "buy_price_min": 0,
+        "sell_price_max": 44898
+      },
+      "Fort Sterling": {
+        "buy_price_max": 15168,
+        "sell_price_min": 37706,
+        "buy_price_min": 15158,
+        "sell_price_max": 37848
+      },
+      "Lymhurst": {
+        "buy_price_max": 18561,
+        "sell_price_min": 30894,
+        "buy_price_min": 15,
+        "sell_price_max": 31649
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T8_YARROW": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 500,
+        "buy_price_min": 0,
+        "sell_price_max": 500
+      },
+      "Bridgewatch": {
+        "buy_price_max": 303,
+        "sell_price_min": 397,
+        "buy_price_min": 1,
+        "sell_price_max": 441
+      },
+      "Caerleon": {
+        "buy_price_max": 365,
+        "sell_price_min": 380,
+        "buy_price_min": 7,
+        "sell_price_max": 440
+      },
+      "Fort Sterling": {
+        "buy_price_max": 393,
+        "sell_price_min": 393,
+        "buy_price_min": 5,
+        "sell_price_max": 393
+      },
+      "Lymhurst": {
+        "buy_price_max": 390,
+        "sell_price_min": 394,
+        "buy_price_min": 1,
+        "sell_price_max": 419
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_DIREBEAR": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 179983,
+        "buy_price_min": 0,
+        "sell_price_max": 179983
+      },
+      "Bridgewatch": {
+        "buy_price_max": 140108,
+        "sell_price_min": 222998,
+        "buy_price_min": 366,
+        "sell_price_max": 250000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 140109,
+        "sell_price_min": 299864,
+        "buy_price_min": 1,
+        "sell_price_max": 360000
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 150000,
+        "buy_price_min": 0,
+        "sell_price_max": 150000
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_EAGLE": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 63967,
+        "buy_price_min": 0,
+        "sell_price_max": 63967
+      },
+      "Bridgewatch": {
+        "buy_price_max": 60006,
+        "sell_price_min": 67709,
+        "buy_price_min": 333,
+        "sell_price_max": 67929
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 60106,
+        "sell_price_min": 65446,
+        "buy_price_min": 1,
+        "sell_price_max": 65485
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_ELEMENTAL": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 67710,
+        "buy_price_min": 0,
+        "sell_price_max": 67710
+      },
+      "Bridgewatch": {
+        "buy_price_max": 60013,
+        "sell_price_min": 65480,
+        "buy_price_min": 152,
+        "sell_price_max": 67769
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 60043,
+        "sell_price_min": 68000,
+        "buy_price_min": 1,
+        "sell_price_max": 79975
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_ENT": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 94997,
+        "buy_price_min": 0,
+        "sell_price_max": 94997
+      },
+      "Bridgewatch": {
+        "buy_price_max": 60882,
+        "sell_price_min": 109989,
+        "buy_price_min": 155,
+        "sell_price_max": 110000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 65342,
+        "sell_price_min": 115490,
+        "buy_price_min": 1,
+        "sell_price_max": 119999
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 129976,
+        "buy_price_min": 0,
+        "sell_price_max": 129998
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_IMP": {
+      "Brecilien": {
+        "buy_price_max": 90050,
+        "sell_price_min": 123000,
+        "buy_price_min": 222,
+        "sell_price_max": 123000
+      },
+      "Bridgewatch": {
+        "buy_price_max": 100096,
+        "sell_price_min": 129998,
+        "buy_price_min": 222,
+        "sell_price_max": 130000
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 100097,
+        "sell_price_min": 114995,
+        "buy_price_min": 1,
+        "sell_price_max": 149966
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_PANTHER": {
+      "Brecilien": {
+        "buy_price_max": 175311,
+        "sell_price_min": 212971,
+        "buy_price_min": 399,
+        "sell_price_max": 250000
+      },
+      "Bridgewatch": {
+        "buy_price_max": 174648,
+        "sell_price_min": 214999,
+        "buy_price_min": 209,
+        "sell_price_max": 229997
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 181061,
+        "sell_price_min": 214340,
+        "buy_price_min": 1,
+        "sell_price_max": 227929
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    },
+    "T7_ALCHEMY_RARE_WEREWOLF": {
+      "Brecilien": {
+        "buy_price_max": 0,
+        "sell_price_min": 65961,
+        "buy_price_min": 0,
+        "sell_price_max": 65970
+      },
+      "Bridgewatch": {
+        "buy_price_max": 60826,
+        "sell_price_min": 66977,
+        "buy_price_min": 144,
+        "sell_price_max": 79999
+      },
+      "Caerleon": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Fort Sterling": {
+        "buy_price_max": 60026,
+        "sell_price_min": 169994,
+        "buy_price_min": 1,
+        "sell_price_max": 169999
+      },
+      "Lymhurst": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Martlock": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      },
+      "Thetford": {
+        "buy_price_max": 0,
+        "sell_price_min": 0,
+        "buy_price_min": 0,
+        "sell_price_max": 0
+      }
+    }
+  },
+  "timestamp": "2025-12-12T12:48:33.388465"
+}
