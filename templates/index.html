@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albion Online - Калькулятор вартості крафту зілля</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Динамічні кольори з теми */
+        :root {
+            --primary-color: {{ theme.primary_color }};
+            --secondary-color: {{ theme.secondary_color }};
+            --danger-color: {{ theme.danger_color }};
+            --warning-color: {{ theme.warning_color }};
+            --bg-gradient-start: {{ theme.background_gradient_start }};
+            --bg-gradient-end: {{ theme.background_gradient_end }};
+            --card-bg: {{ theme.card_background }};
+            --text-color: {{ theme.text_color }};
+            --border-color: {{ theme.border_color }};
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧪 Калькулятор вартості крафту зілля</h1>
+            <p class="subtitle">Albion Online</p>
+        </header>
+
+        <div class="cache-status">
+            <span class="cache-indicator {{ cache_status.status }}"></span>
+            <span class="cache-message">{{ cache_status.message }}</span>
+            <button id="refresh-btn" class="btn-refresh" onclick="refreshPrices()">🔄 Оновити ціни</button>
+        </div>
+
+        <form method="POST" action="/calculate" class="calculator-form">
+            <div class="form-section">
+                <h2>Основні параметри</h2>
+                
+                <div class="form-group">
+                    <label for="potion_id">Зілля *</label>
+                    <select id="potion_id" name="potion_id" required>
+                        <option value="">-- Виберіть зілля --</option>
+                        {% for potion_id, potion_data in potions.items() %}
+                        <option value="{{ potion_id }}" data-image="{{ potion_data.image or '' }}">
+                            {{ potion_data.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                    <div id="potion-preview" style="margin-top: 10px; display: none;">
+                        <img id="potion-preview-img" src="" alt="" class="potion-icon-large" style="display: none;">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="craft_city">Місто для крафту *</label>
+                        <select id="craft_city" name="craft_city" required>
+                            <option value="">-- Виберіть місто --</option>
+                            {% for city in cities %}
+                            <option value="{{ city }}">{{ city }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sell_city">Місто для продажу *</label>
+                        <select id="sell_city" name="sell_city" required>
+                            <option value="">-- Виберіть місто --</option>
+                            {% for city in cities %}
+                            <option value="{{ city }}">{{ city }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Кількість зілля для крафту *</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="100" required>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Додаткові параметри</h2>
+                
+                <div class="form-group">
+                    <label for="machine_cost">Вартість користування станком за 100 їжі</label>
+                    <input type="number" id="machine_cost" name="machine_cost" min="0" step="0.01" value="0">
+                    <small>Введіть вартість за 100 їжі (не за одиницю зілля)</small>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="use_custom_return_rate" name="use_custom_return_rate" onchange="toggleReturnRate()">
+                        <span>Свій відсоток повернення ресурсів</span>
+                    </label>
+                    <small id="default-return-info" style="margin-top: 5px; display: block; color: #7f8c8d;">
+                        За замовчуванням використовується: <strong id="default-return-value">{{ default_return_rate }}%</strong>
+                    </small>
+                </div>
+
+                <div class="form-group" id="return_rate_group" style="display: none;">
+                    <label for="return_rate">Фінальний відсоток повернення ресурсів (%)</label>
+                    <input type="number" id="return_rate" name="return_rate" min="0" max="100" step="0.1" value="{{ default_return_rate }}">
+                    <small>Відсоток, який ви бачите на станку (0-100)</small>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="focus_bonus" name="focus_bonus">
+                        <span>Використовувати фокус (-20% витрат)</span>
+                    </label>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="extra_bonus" name="extra_bonus" onchange="toggleExtraBonus()">
+                        <span>Додатковий бонус</span>
+                    </label>
+                </div>
+                <div class="form-group" id="extra_bonus_group" style="display: none;">
+                    <label for="extra_bonus_pct">Відсоток додаткового бонусу (%)</label>
+                    <input type="number" id="extra_bonus_pct" name="extra_bonus_pct" min="0" max="100" step="0.1" value="0">
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="premium" name="premium">
+                        <span>Наявність преміуму</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-primary">📊 Розрахувати</button>
+                <button type="reset" class="btn-secondary">Очистити</button>
+            </div>
+        </form>
+
+        <div class="info-box">
+            <h3>ℹ️ Інформація</h3>
+            <ul>
+                <li><strong>Бресіліон:</strong> Автоматично застосовується бонус +15% до виходу зілля</li>
+                <li><strong>Повернення ресурсів:</strong> Вказуйте фінальний відсоток, який ви бачите на станку</li>
+                <li><strong>Вартість станка:</strong> Вказуйте вартість за 100 їжі, не за одиницю зілля</li>
+                <li><strong>Ціни:</strong> Автоматично оновлюються кожні 6 годин</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="position: fixed; bottom: 2px; left: 12px; font-size: 12px; color: #ecf0f1; opacity: 0.9; z-index: 9999; pointer-events: none; text-shadow: 0 0 4px rgba(0,0,0,0.35);">
+        Розробив F2000
+    </div>
+
+    <script>
+        // Показ прев'ю зілля при виборі
+        document.getElementById('potion_id').addEventListener('change', function() {
+            const selected = this.options[this.selectedIndex];
+            const imagePath = selected.getAttribute('data-image');
+            const preview = document.getElementById('potion-preview');
+            const previewImg = document.getElementById('potion-preview-img');
+            
+            if (imagePath) {
+                previewImg.src = '/static/' + imagePath;
+                previewImg.style.display = 'block';
+                preview.style.display = 'block';
+            } else {
+                preview.style.display = 'none';
+                previewImg.style.display = 'none';
+            }
+        });
+
+        // Показ/приховування поля відсотка повернення
+        function toggleReturnRate() {
+            const checkbox = document.getElementById('use_custom_return_rate');
+            const returnRateGroup = document.getElementById('return_rate_group');
+            const defaultInfo = document.getElementById('default-return-info');
+            
+            if (checkbox.checked) {
+                returnRateGroup.style.display = 'block';
+                defaultInfo.style.display = 'none';
+            } else {
+                returnRateGroup.style.display = 'none';
+                defaultInfo.style.display = 'block';
+            }
+        }
+
+        function toggleExtraBonus() {
+            const checkbox = document.getElementById('extra_bonus');
+            const group = document.getElementById('extra_bonus_group');
+            if (checkbox && group) {
+                if (checkbox.checked) {
+                    group.style.display = 'block';
+                } else {
+                    group.style.display = 'none';
+                    const input = document.getElementById('extra_bonus_pct');
+                    if (input) input.value = 0;
+                }
+            }
+        }
+
+        function updateDefaultReturnRate() {
+            const city = document.getElementById('craft_city').value;
+            const defaultReturn = city === 'Brecilien' ? 24.8 : 15.2;
+            const defaultInfo = document.getElementById('default-return-value');
+            if (defaultInfo) {
+                defaultInfo.textContent = defaultReturn + '%';
+            }
+            const returnInput = document.getElementById('return_rate');
+            const useCustom = document.getElementById('use_custom_return_rate');
+            if (returnInput && useCustom && !useCustom.checked) {
+                returnInput.value = defaultReturn;
+            }
+        }
+
+        function refreshPrices() {
+            const btn = document.getElementById('refresh-btn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Оновлення...';
+            
+            fetch('/refresh_prices', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('✅ ' + data.message);
+                    location.reload();
+                } else {
+                    alert('❌ ' + data.message);
+                }
+            })
+            .catch(error => {
+                alert('❌ Помилка: ' + error);
+            })
+            .finally(() => {
+                btn.disabled = false;
+                btn.textContent = '🔄 Оновити ціни';
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            toggleExtraBonus();
+            updateDefaultReturnRate();
+        });
+        document.getElementById('craft_city').addEventListener('change', updateDefaultReturnRate);
+    </script>
+</body>
+</html>

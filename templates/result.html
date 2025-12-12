@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результати розрахунку - Albion Online</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Динамічні кольори з теми */
+        :root {
+            --primary-color: {{ theme.primary_color }};
+            --secondary-color: {{ theme.secondary_color }};
+            --danger-color: {{ theme.danger_color }};
+            --warning-color: {{ theme.warning_color }};
+            --bg-gradient-start: {{ theme.background_gradient_start }};
+            --bg-gradient-end: {{ theme.background_gradient_end }};
+            --card-bg: {{ theme.card_background }};
+            --text-color: {{ theme.text_color }};
+            --border-color: {{ theme.border_color }};
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Результати розрахунку</h1>
+            <a href="/" class="btn-back">← Назад до калькулятора</a>
+        </header>
+
+        <div class="result-card">
+            <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+                {% if result.potion_image %}
+                <img src="{{ url_for('static', filename=result.potion_image) }}" alt="{{ result.potion_name }}" class="potion-icon-large">
+                {% endif %}
+                <h2>{{ result.potion_name }}</h2>
+            </div>
+            
+            <div class="result-grid">
+                <div class="result-section">
+                    <h3>📦 Параметри крафту</h3>
+                    <div class="info-item">
+                        <span class="label">Запитана кількість:</span>
+                        <span class="value">{{ result.quantity }} зілля</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Вихід з одного крафту:</span>
+                        <span class="value">{{ result.potion_yield }} зілля</span>
+                    </div>
+                    {% if result.effective_yield and result.effective_yield > result.potion_yield %}
+                    <div class="info-item highlight">
+                        <span class="label">Ефективний вихід (з бонусом):</span>
+                        <span class="value">{{ "%.1f"|format(result.effective_yield) }} зілля</span>
+                    </div>
+                    {% endif %}
+                    <div class="info-item">
+                        <span class="label">Потрібно крафтів:</span>
+                        <span class="value">{{ result.crafts_needed }}</span>
+                    </div>
+                    {% if result.actual_quantity > result.quantity %}
+                    <div class="info-item warning">
+                        <span class="label">Фактична кількість:</span>
+                        <span class="value">{{ result.actual_quantity }} зілля (буде зайве)</span>
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="result-section">
+                    <h3>💰 Вартість крафту</h3>
+                    <div class="info-item">
+                        <span class="label">Інгредієнти:</span>
+                        <span class="value">{{ result.ingredient_cost|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Станок:</span>
+                        <span class="value">{{ result.machine_cost|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item total">
+                        <span class="label">Загальна вартість:</span>
+                        <span class="value">{{ result.total_cost|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Вартість одного зілля:</span>
+                        <span class="value">{{ result.cost_per_potion|format_number }} срібла</span>
+                    </div>
+                </div>
+
+                <div class="result-section">
+                    <h3>💵 Продаж та прибуток</h3>
+                    <div class="info-item">
+                        <span class="label">Ціна продажу:</span>
+                        <span class="value">{{ result.sell_price|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Після податку та лістингу:</span>
+                        <span class="value">{{ result.sell_price_after_tax|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Витрати станка:</span>
+                        <span class="value">{{ result.machine_cost|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item {% if result.profit_per_potion > 0 %}profit{% else %}loss{% endif %}">
+                        <span class="label">Прибуток з одного зілля:</span>
+                        <span class="value">{{ result.profit_per_potion|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item {% if result.total_profit > 0 %}profit{% else %}loss{% endif %}">
+                        <span class="label">Загальний прибуток:</span>
+                        <span class="value">{{ result.total_profit|format_number }} срібла</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">ROI:</span>
+                        <span class="value {% if result.roi_percent > 0 %}profit{% else %}loss{% endif %}">{{ "%.2f"|format(result.roi_percent) }}%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ingredients-section">
+                <h3>🧪 Матеріали для закупівлі (з урахуванням повернення)</h3>
+                <table class="ingredients-table">
+                    <thead>
+                        <tr>
+                            <th>Інгредієнт</th>
+                            <th>Кількість</th>
+                            <th>Ціна за одиницю</th>
+                            <th>Загальна вартість</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ing_id, details in result.ingredient_details.items() %}
+                        {% set per_craft_qty = details.quantity %}
+                            {% set total_qty = details.required_total_quantity %}
+                            {% set total_cost = details.required_total_cost %}
+                        <tr>
+                            <td>
+                                <div class="ingredient-row">
+                                    {% if details.image %}
+                                    <img src="{{ url_for('static', filename=details.image) }}"
+                                         alt="{{ details.get('name', ing_id) }}"
+                                         class="ingredient-icon-small"
+                                         onerror="this.style.display='none'">
+                                    {% endif %}
+                                    <span>{{ details.get('name', ing_id) }}</span>
+                                </div>
+                            </td>
+                            <td>{{ total_qty|round(0, 'ceil')|int }}</td>
+                            <td>{{ details.unit_price|format_number }} срібла</td>
+                            <td>{{ total_cost|format_number }} срібла</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                <div class="details-toggle">
+                    <button type="button" class="btn-secondary" id="per-craft-toggle" onclick="togglePerCraftDetails()">
+                        Показати деталізацію інгредієнтів на 1 крафт
+                    </button>
+                </div>
+
+                <div id="per-craft-details" class="details-panel" style="display: none;">
+                    <h3>🧪 Деталізація інгредієнтів (на 1 крафт)</h3>
+                    <table class="ingredients-table fullwidth">
+                        <thead>
+                            <tr>
+                                <th>Інгредієнт</th>
+                                <th>Кількість (1 крафт)</th>
+                                <th>Ціна за одиницю</th>
+                                <th>Загальна вартість</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for ing_id, details in result.ingredient_details.items() %}
+                            <tr>
+                                <td>
+                                    <div class="ingredient-row">
+                                        {% if details.image %}
+                                        <img src="{{ url_for('static', filename=details.image) }}"
+                                             alt="{{ details.get('name', ing_id) }}"
+                                             class="ingredient-icon-small"
+                                             onerror="this.style.display='none'">
+                                        {% endif %}
+                                        <span>{{ details.get('name', ing_id) }}</span>
+                                    </div>
+                                </td>
+                                <td>{{ details.quantity|round(0, 'ceil')|int }}</td>
+                                <td>{{ details.unit_price|format_number }} срібла</td>
+                                <td>{{ details.total_cost|format_number }} срібла</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h3>⚙️ Налаштування</h3>
+                <div class="settings-grid">
+                    <div class="setting-item">
+                        <span class="setting-label">Місто крафту:</span>
+                        <span class="setting-value">{{ result.settings.craft_city }}</span>
+                        {% if result.settings.brecilien_bonus > 0 %}
+                        <span class="bonus-badge">+{{ "%.0f"|format(result.settings.brecilien_bonus * 100) }}% бонус</span>
+                        {% endif %}
+                    </div>
+                    <div class="setting-item">
+                        <span class="setting-label">Місто продажу:</span>
+                        <span class="setting-value">{{ result.settings.sell_city }}</span>
+                    </div>
+                    <div class="setting-item">
+                        <span class="setting-label">Використати фокус:</span>
+                        <span class="setting-value">{{ "Так" if result.settings.focus_bonus else "Ні" }}</span>
+                    </div>
+                    <div class="setting-item">
+                        <span class="setting-label">Додатковий бонус:</span>
+                        <span class="setting-value">{{ "%.1f"|format(result.settings.extra_bonus_pct) }}%</span>
+                    </div>
+                    <div class="setting-item">
+                        <span class="setting-label">Наявність преміуму:</span>
+                        <span class="setting-value">{{ "Так" if result.settings.premium else "Ні" }}</span>
+                    </div>
+                    <div class="setting-item">
+                        <span class="setting-label">Повернення ресурсів:</span>
+                        <span class="setting-value">{{ "%.1f"|format(result.settings.return_rate * 100) }}%</span>
+                        {% if result.get('is_custom_return_rate') %}
+                        <span style="font-size: 0.85em; color: #7f8c8d;">(користувацький)</span>
+                        {% else %}
+                        <span style="font-size: 0.85em; color: #7f8c8d;">(стандартний)</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="position: fixed; bottom: 2px; left: 12px; font-size: 12px; color: #ecf0f1; opacity: 0.9; z-index: 9999; pointer-events: none; text-shadow: 0 0 4px rgba(0,0,0,0.35);">
+        Розробив F2000
+    </div>
+
+    <script>
+    function togglePerCraftDetails() {
+        const panel = document.getElementById('per-craft-details');
+        const btn = document.getElementById('per-craft-toggle');
+        const isHidden = panel.style.display === 'none' || panel.style.display === '';
+        if (isHidden) {
+            panel.style.display = 'block';
+            if (btn) btn.textContent = 'Приховати деталізацію інгредієнтів на 1 крафт';
+        } else {
+            panel.style.display = 'none';
+            if (btn) btn.textContent = 'Показати деталізацію інгредієнтів на 1 крафт';
+        }
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        const panel = document.getElementById('per-craft-details');
+        const btn = document.getElementById('per-craft-toggle');
+        if (panel && btn) {
+            panel.style.display = 'none';
+            btn.textContent = 'Показати деталізацію інгредієнтів на 1 крафт';
+        }
+    });
+    </script>
+</body>
+</html>
